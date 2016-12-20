@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<video id="test"
+       data-playlist-id="5210450859001"
+       data-account="5210448797001"
+       data-player="SJGJL2uWx"
+       data-embed="default"
+       data-application-id
+       class="video-js"
+       controls
+       width="600"
+       height="300"></video>
+<script src="//players.brightcove.net/5210448797001/SJGJL2uWx_default/index.min.js"></script><ol class="vjs-playlist"></ol>
+<script type="text/javascript" src="../src/videojs.atinternet.js"></script>
+<script type="text/javascript">
+    videojs('test').atinternet({
+        "site":"410501",
+        "log":"logdev",
+        "logSSL":"logs1225",
+        "internalDomains": [/*'localhost'*/]
+    });
+</script>
+</body>
+</html>
